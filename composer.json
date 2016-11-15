@@ -1,0 +1,31 @@
+{
+    "name": "maelstromeous/imagetidy",
+    "description": "Tidies up your images using ContentType slugs and IDs",
+    "type": "bolt-extension",
+    "keywords": [
+        "ContentType",
+        "ImageUploads",
+        "Uploads"
+    ],
+    "require": {
+        "bolt/bolt": "^3.2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Cavanagh",
+            "email": "maelstrome26@mail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Maelstromeous\\ImageTidy\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\Maelstromeous\\ImageTidy\\ImageTidyExtension"
+    }
+}
